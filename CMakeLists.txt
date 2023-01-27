@@ -1,19 +1,20 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.23)
 project(GoogleTest)
-
-# GoogleTest requires at least C++14
-set(CMAKE_CXX_STANDARD 14)
-
-include(FetchContent)
-FetchContent_Declare(
-        googletest
-        URL https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip
-)
-set(SOURCES
-    ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp
-)
-
+set(CMAKE_CXX_STANDARD 17)
+#Define executable
 add_executable(GoogleTest main.cpp)
-# For Windows: Prevent overriding the parent project's compiler/linker settings
-set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
-FetchContent_MakeAvailable(googletest)
+##Add the gtest library to compilation!
+
+##Include the google-test directories
+
+add_subdirectory(/home/solteszistvan/CLionProjects/GoogleTest/lib/googletest-main)
+include_directories(/home/solteszistvan/CLionProjects/GoogleTest/lib/googletest-main/googletest/include)
+include_directories(/home/solteszistvan/CLionProjects/GoogleTest/lib/googletest-main/googlemock/include)
+
+##Link executable with google-test
+
+#Link with GoogleTest
+target_link_libraries(GoogleTest gtest gtest_main)
+
+#Link with GoogleMock
+target_link_libraries(GoogleTest gmock gmock_main)
