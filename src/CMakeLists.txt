@@ -6,7 +6,7 @@ add_subdirectory(lib/googletest)
 
 include_directories(lib/googletest/googletest/include)
 set(SOURCE_FILES
-    main.cpp
+        main.cpp
 )
 add_executable(GoogleTest ${SOURCE_FILES})
 target_link_libraries(GoogleTestDemo gtest)
