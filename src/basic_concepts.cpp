@@ -2,7 +2,7 @@
 // Created by solteszistvan on 2023.01.15..
 //
 #include <iostream>
-#include"basic_concepts.h"
+#include"../hdr/basic_concepts.h"
 using namespace std;
 
 void Identifiers(){

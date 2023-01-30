@@ -1,8 +1,8 @@
 #include <iostream>
-#include "memoryAllocation.h"
-#include "basic_concepts.h"
-#include "bitFields.h"
-#include "Source_inclusion.h"
+#include "hdr/memoryAllocation.h"
+#include "hdr/basic_concepts.h"
+#include "hdr/bitFields.h"
+#include "hdr/Source_inclusion.h"
 
 int main() {
     memoryAllocation();

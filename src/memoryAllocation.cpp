@@ -1,5 +1,5 @@
 #include <iostream>
-#include "memoryAllocation.h"
+#include "../hdr/memoryAllocation.h"
 using namespace std;
 void memoryAllocation(){
 //Declaration of variables.

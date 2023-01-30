@@ -2,7 +2,7 @@
 // Created by solteszistvan on 2023.01.15..
 //
 #include <iostream>
-#include"bitFields.h"
+#include"../hdr/bitFields.h"
 using namespace std;
 void bitF1(){
     cout << "##########\nbitFields\n\n";

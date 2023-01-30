@@ -2,7 +2,7 @@
 // Created by solteszistvan on 2023.01.15..
 //
 
-#include"def&odr.h"
+#include"../hdr/def&odr.h"
 #include <iostream>
 
 void test1(){

@@ -49,17 +49,17 @@ cmake_ninja_workdir = /home/solteszistvan/CLionProjects/cppLanguage/cmake-build-
 
 build cmake_object_order_depends_target_cppLanguage: phony || CMakeFiles/cppLanguage.dir
 
-build CMakeFiles/cppLanguage.dir/memoryAllocation.cpp.o: CXX_COMPILER__cppLanguage_Debug /home/solteszistvan/CLionProjects/cppLanguage/memoryAllocation.cpp || cmake_object_order_depends_target_cppLanguage
-  DEP_FILE = CMakeFiles/cppLanguage.dir/memoryAllocation.cpp.o.d
+build CMakeFiles/cppLanguage.dir/src/memoryAllocation.cpp.o: CXX_COMPILER__cppLanguage_Debug /home/solteszistvan/CLionProjects/cppLanguage/src/memoryAllocation.cpp || cmake_object_order_depends_target_cppLanguage
+  DEP_FILE = CMakeFiles/cppLanguage.dir/src/memoryAllocation.cpp.o.d
   FLAGS = -g -std=gnu++2a
   OBJECT_DIR = CMakeFiles/cppLanguage.dir
-  OBJECT_FILE_DIR = CMakeFiles/cppLanguage.dir
+  OBJECT_FILE_DIR = CMakeFiles/cppLanguage.dir/src
 
-build CMakeFiles/cppLanguage.dir/basic_concepts.cpp.o: CXX_COMPILER__cppLanguage_Debug /home/solteszistvan/CLionProjects/cppLanguage/basic_concepts.cpp || cmake_object_order_depends_target_cppLanguage
-  DEP_FILE = CMakeFiles/cppLanguage.dir/basic_concepts.cpp.o.d
+build CMakeFiles/cppLanguage.dir/src/basic_concepts.cpp.o: CXX_COMPILER__cppLanguage_Debug /home/solteszistvan/CLionProjects/cppLanguage/src/basic_concepts.cpp || cmake_object_order_depends_target_cppLanguage
+  DEP_FILE = CMakeFiles/cppLanguage.dir/src/basic_concepts.cpp.o.d
   FLAGS = -g -std=gnu++2a
   OBJECT_DIR = CMakeFiles/cppLanguage.dir
-  OBJECT_FILE_DIR = CMakeFiles/cppLanguage.dir
+  OBJECT_FILE_DIR = CMakeFiles/cppLanguage.dir/src
 
 build CMakeFiles/cppLanguage.dir/main.cpp.o: CXX_COMPILER__cppLanguage_Debug /home/solteszistvan/CLionProjects/cppLanguage/main.cpp || cmake_object_order_depends_target_cppLanguage
   DEP_FILE = CMakeFiles/cppLanguage.dir/main.cpp.o.d
@@ -67,29 +67,29 @@ build CMakeFiles/cppLanguage.dir/main.cpp.o: CXX_COMPILER__cppLanguage_Debug /ho
   OBJECT_DIR = CMakeFiles/cppLanguage.dir
   OBJECT_FILE_DIR = CMakeFiles/cppLanguage.dir
 
-build CMakeFiles/cppLanguage.dir/bitFields.cpp.o: CXX_COMPILER__cppLanguage_Debug /home/solteszistvan/CLionProjects/cppLanguage/bitFields.cpp || cmake_object_order_depends_target_cppLanguage
-  DEP_FILE = CMakeFiles/cppLanguage.dir/bitFields.cpp.o.d
+build CMakeFiles/cppLanguage.dir/src/bitFields.cpp.o: CXX_COMPILER__cppLanguage_Debug /home/solteszistvan/CLionProjects/cppLanguage/src/bitFields.cpp || cmake_object_order_depends_target_cppLanguage
+  DEP_FILE = CMakeFiles/cppLanguage.dir/src/bitFields.cpp.o.d
   FLAGS = -g -std=gnu++2a
   OBJECT_DIR = CMakeFiles/cppLanguage.dir
-  OBJECT_FILE_DIR = CMakeFiles/cppLanguage.dir
+  OBJECT_FILE_DIR = CMakeFiles/cppLanguage.dir/src
 
-build CMakeFiles/cppLanguage.dir/declarations.cpp.o: CXX_COMPILER__cppLanguage_Debug /home/solteszistvan/CLionProjects/cppLanguage/declarations.cpp || cmake_object_order_depends_target_cppLanguage
-  DEP_FILE = CMakeFiles/cppLanguage.dir/declarations.cpp.o.d
+build CMakeFiles/cppLanguage.dir/src/declarations.cpp.o: CXX_COMPILER__cppLanguage_Debug /home/solteszistvan/CLionProjects/cppLanguage/src/declarations.cpp || cmake_object_order_depends_target_cppLanguage
+  DEP_FILE = CMakeFiles/cppLanguage.dir/src/declarations.cpp.o.d
   FLAGS = -g -std=gnu++2a
   OBJECT_DIR = CMakeFiles/cppLanguage.dir
-  OBJECT_FILE_DIR = CMakeFiles/cppLanguage.dir
+  OBJECT_FILE_DIR = CMakeFiles/cppLanguage.dir/src
 
-build CMakeFiles/cppLanguage.dir/def&odr.cpp.o: CXX_COMPILER__cppLanguage_Debug /home/solteszistvan/CLionProjects/cppLanguage/def&odr.cpp || cmake_object_order_depends_target_cppLanguage
-  DEP_FILE = "CMakeFiles/cppLanguage.dir/def&odr.cpp.o.d"
+build CMakeFiles/cppLanguage.dir/src/def&odr.cpp.o: CXX_COMPILER__cppLanguage_Debug /home/solteszistvan/CLionProjects/cppLanguage/src/def&odr.cpp || cmake_object_order_depends_target_cppLanguage
+  DEP_FILE = "CMakeFiles/cppLanguage.dir/src/def&odr.cpp.o.d"
   FLAGS = -g -std=gnu++2a
   OBJECT_DIR = CMakeFiles/cppLanguage.dir
-  OBJECT_FILE_DIR = CMakeFiles/cppLanguage.dir
+  OBJECT_FILE_DIR = CMakeFiles/cppLanguage.dir/src
 
-build CMakeFiles/cppLanguage.dir/Source_inclusion.cpp.o: CXX_COMPILER__cppLanguage_Debug /home/solteszistvan/CLionProjects/cppLanguage/Source_inclusion.cpp || cmake_object_order_depends_target_cppLanguage
-  DEP_FILE = CMakeFiles/cppLanguage.dir/Source_inclusion.cpp.o.d
+build CMakeFiles/cppLanguage.dir/src/Source_inclusion.cpp.o: CXX_COMPILER__cppLanguage_Debug /home/solteszistvan/CLionProjects/cppLanguage/src/Source_inclusion.cpp || cmake_object_order_depends_target_cppLanguage
+  DEP_FILE = CMakeFiles/cppLanguage.dir/src/Source_inclusion.cpp.o.d
   FLAGS = -g -std=gnu++2a
   OBJECT_DIR = CMakeFiles/cppLanguage.dir
-  OBJECT_FILE_DIR = CMakeFiles/cppLanguage.dir
+  OBJECT_FILE_DIR = CMakeFiles/cppLanguage.dir/src
 
 
 # =============================================================================
@@ -99,7 +99,7 @@ build CMakeFiles/cppLanguage.dir/Source_inclusion.cpp.o: CXX_COMPILER__cppLangua
 #############################################
 # Link the executable cppLanguage
 
-build cppLanguage: CXX_EXECUTABLE_LINKER__cppLanguage_Debug CMakeFiles/cppLanguage.dir/memoryAllocation.cpp.o CMakeFiles/cppLanguage.dir/basic_concepts.cpp.o CMakeFiles/cppLanguage.dir/main.cpp.o CMakeFiles/cppLanguage.dir/bitFields.cpp.o CMakeFiles/cppLanguage.dir/declarations.cpp.o CMakeFiles/cppLanguage.dir/def&odr.cpp.o CMakeFiles/cppLanguage.dir/Source_inclusion.cpp.o
+build cppLanguage: CXX_EXECUTABLE_LINKER__cppLanguage_Debug CMakeFiles/cppLanguage.dir/src/memoryAllocation.cpp.o CMakeFiles/cppLanguage.dir/src/basic_concepts.cpp.o CMakeFiles/cppLanguage.dir/main.cpp.o CMakeFiles/cppLanguage.dir/src/bitFields.cpp.o CMakeFiles/cppLanguage.dir/src/declarations.cpp.o CMakeFiles/cppLanguage.dir/src/def&odr.cpp.o CMakeFiles/cppLanguage.dir/src/Source_inclusion.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/cppLanguage.dir
   POST_BUILD = :
