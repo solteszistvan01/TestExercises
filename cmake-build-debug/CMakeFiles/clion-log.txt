@@ -1,0 +1,16 @@
+/home/solteszistvan/Applications/clion-2022.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/solteszistvan/Applications/clion-2022.2.4/bin/ninja/linux/ninja -DCMAKE_C_COMPILER=/usr/bin/gcc -G Ninja -S /home/solteszistvan/CLionProjects/FSA -B /home/solteszistvan/CLionProjects/FSA/cmake-build-debug
+CMake Error at CMakeLists.txt:24 (add_subdirectory):
+  The source directory
+
+    /home/solteszistvan/CLionProjects/FSA/Google_tests/lib
+
+  does not contain a CMakeLists.txt file.
+
+
+CMake Error at CMakeLists.txt:32 (target_link_libraries):
+  Cannot specify link libraries for target "EXECUTABLE_NAME" which is not
+  built by this project.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/solteszistvan/CLionProjects/FSA/cmake-build-debug/CMakeFiles/CMakeOutput.log".

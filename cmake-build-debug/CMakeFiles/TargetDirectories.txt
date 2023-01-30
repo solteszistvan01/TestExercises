@@ -1,0 +1,3 @@
+/home/solteszistvan/CLionProjects/FSA/cmake-build-debug/CMakeFiles/FSA.dir
+/home/solteszistvan/CLionProjects/FSA/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/solteszistvan/CLionProjects/FSA/cmake-build-debug/CMakeFiles/rebuild_cache.dir

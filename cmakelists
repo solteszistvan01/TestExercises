@@ -1,0 +1,13 @@
+1.
+set(SOURCE FILES <filename>+)
+add_executable(<projectName>_run ${SOURCE_FILES})
+target_link_libraries()
+
+project(<projectName>)
+
+set(HEADER_FILES <header>+)
+set(SOURCE_FILES <source>+)
+    Here, "HEADER_FILES" and "SOURCE_FILES" are variable names.
+
+add_library(<libroot>_lib ${SOURCE_FILES} ${HEADER_FILES} ${HEADER_FILEs})
+    Here, $ENV{<variable>} is a variable reference

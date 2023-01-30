@@ -1,0 +1,7 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.16)
+project(FSA)
+
+set(CMAKE_CXX_STANDARD 20)
+
+set(SOURCE_FILES main.cpp)
+add_executable()
