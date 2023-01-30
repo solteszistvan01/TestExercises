@@ -1,0 +1,3 @@
+/home/solteszistvan/CLionProjects/cppLanguage/cmake-build-debug/CMakeFiles/cppLanguage.dir
+/home/solteszistvan/CLionProjects/cppLanguage/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/solteszistvan/CLionProjects/cppLanguage/cmake-build-debug/CMakeFiles/rebuild_cache.dir
