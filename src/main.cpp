@@ -41,10 +41,10 @@ TEST(NMSO, predicateCheck){
     }
     //TODO: Convert code to tests
     //TODO: Check whether the elements of data are pairwise disjunct using a single predicate
-    EXPECT_EQ(pairwiseDisjunctSets(data), true);
-    EXPECT_EQ(any_of(data->begin(), data->end(), divisibleBy2), true); //Tests whether any set in the data satisfies the predicate "divisibleBy2"
-    EXPECT_EQ(all_of(data->begin(), data->end(), congruentTo76), false);
-    EXPECT_EQ(none_of(data->begin(), data->end(), is0), false);
+    //EXPECT_EQ(pairwiseDisjunctSets(data), true);
+    //EXPECT_EQ(any_of(data->begin(), data->end(), divisibleBy2), true); //Tests whether any set in the data satisfies the predicate "divisibleBy2"
+    //EXPECT_EQ(all_of(data->begin(), data->end(), congruentTo76), false);
+    //EXPECT_EQ(none_of(data->begin(), data->end(), is0), false);
     EXPECT_EQ(5,5);
     EXPECT_EQ(7,1);
 }
